@@ -10,7 +10,7 @@ import java.util.*
 class NetworkUtils {
 
     companion object {
-        val COINS_API_BASE = "https://coinsapirestfulll.herokuapp.com/api/coin"
+        val COINS_API_BASE = "https://edb-coins.herokuapp.com/api/coin"
         @JvmStatic fun buiURL() : URL{
             var uri : Uri = Uri.parse(COINS_API_BASE).buildUpon().build()
 
